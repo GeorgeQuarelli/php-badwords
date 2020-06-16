@@ -39,7 +39,7 @@ $bad_words = $_GET["Badwords"];
 
 $badword = $_GET['badword']
 
-$numero_sostituzioni = -0;
+$numero_sostituzioni = 0;
 
 $testo_censurato = str_replace($badword, '***', $text, $numero_sostituzioni);
 
