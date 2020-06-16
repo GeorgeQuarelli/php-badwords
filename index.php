@@ -34,7 +34,7 @@ $text = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmo
 $lunghezza = strlen($text);
 
 //determino le parole da sostituire passata in GET
-$bad_words = $_GET["Badwords"];
+$badword = $_GET["badword"];
 
 $numero_sostituzioni = 0;
 
